@@ -9,12 +9,11 @@ It provides functionalities like port availability checks, DNS resolution testin
 
 Run the script with root permission:  
 ```bash
-wget -qO- "https://raw.githubusercontent.com/ronoga/ss-manager/refs/heads/main/ss_manager.sh" | sudo bash
+wget -O ss_manager.sh "https://raw.githubusercontent.com/ronoga/ss-manager/main/ss_manager.sh"
+chmod +x ss_manager.sh
+sudo ./ss_manager.sh
 ```
-### or
-```bash
-curl -fsSL "https://raw.githubusercontent.com/ronoga/ss-manager/refs/heads/main/ss_manager.sh" | sudo bash
-```
+
 ### Features
 
 - Check if a port is free or in use locally (for localhost IPs).  
