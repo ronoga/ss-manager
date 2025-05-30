@@ -1,4 +1,4 @@
-# ss-manager - Shadowsocks Service Manager Script
+# Shadowsocks Service Manager Script
 
 ## English Description
 
