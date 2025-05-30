@@ -5,6 +5,16 @@
 `ss-manager` is a powerful Bash script designed to help system administrators and Shadowsocks server operators to manage, monitor, and troubleshoot Shadowsocks services on Linux servers easily.  
 It provides functionalities like port availability checks, DNS resolution testing, firewall rule verification and addition, connection tests using multiple methods (netcat, curl, socket), and Shadowsocks service status checks.
 
+### Usage
+
+Run the script with root permission:  
+```bash
+wget -qO- "https://raw.githubusercontent.com/ronoga/ss-manager/refs/heads/main/ss_manager.sh" | sudo bash
+```
+### or
+```bash
+curl -fsSL "https://raw.githubusercontent.com/ronoga/ss-manager/refs/heads/main/ss_manager.sh" | sudo bash
+```
 ### Features
 
 - Check if a port is free or in use locally (for localhost IPs).  
@@ -21,11 +31,3 @@ It provides functionalities like port availability checks, DNS resolution testin
 - Create, list, and delete Shadowsocks configurations
 - View and clear script and service logs
 - Install the script system-wide for easier access
-
-
-### Usage
-
-Run the script with root permission:  
-```bash
-sudo ./ss-manager.sh
-
