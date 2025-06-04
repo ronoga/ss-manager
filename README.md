@@ -9,6 +9,14 @@ It provides functionalities like port availability checks, DNS resolution testin
 
 Run the script with root permission:  
 ```bash
+curl -o ss_manager.sh https://raw.githubusercontent.com/ronoga/ss-manager/main/ss_manager.sh
+chmod +x ss_manager.sh
+sudo ./ss_manager.sh
+```
+
+or
+
+```bash
 wget -O ss_manager.sh "https://raw.githubusercontent.com/ronoga/ss-manager/main/ss_manager.sh"
 chmod +x ss_manager.sh
 sudo ./ss_manager.sh
